@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    height: 66px;
+    /* border: 2px solid red; */
+    background-image: url("https://images.squarespace-cdn.com/content/v1/55cfb535e4b061baebe310df/1587472623697-IC8B3J3ZIZI0AMIE7U8G/sky+photo+for+website+home+page.jpeg?format=2500w");
+    
+}
+#search{
+    width: 40%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 50px;
+    background: none;
+}
+.imglogo{
+    width: 150px;
+    height: 64px;   
+}
+.div1{
+    cursor: pointer;
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 900;
+}
+#mainDiv{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,35%);
+    grid-gap: 10px;
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm309-adj-05.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=334617d8d5037da003356dd61adc146e") 
+    
+}
+.box{
+    margin-left: 50px;
+}
+.randomImg{
+    margin-left: 30px;
+    width: 800px;
+}
+.randomName{
+    position: relative;
+    left: 750px;
+    bottom: 790px;
+    font-size: 30px;
+    margin-left: 110px;
+    
+}
+.randomId{
+    position: relative;
+    left: 750px;
+    bottom: 785px;  
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 110px;
+    
+
+}
+.randomPrice{
+    position: relative;
+    left: 750px;
+    bottom: 780px; 
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 110px;
+    
+
+}
+.randomDes{
+    position: relative;
+    left: 750px;
+    bottom: 770px; 
+    letter-spacing: 1px;
+    margin-left: 110px;
+    
+}
+.randomDes span{
+    font-size: 30px;
+}
+#words{
+    border: 2px solid red;
+    width: 500px;
+    height: 300px;
+    visibility:collapse;
+}
